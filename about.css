@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #42CAFE;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(32, 106, 136);
+    margin-right: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 0.84rem;
+}
+
+#navbarNav a:hover {
+    color: #77bdff;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    background: white;
+    z-index: -1;
+}
+
+.title {
+    color: rgb(44, 44, 44);
+    margin-top: 60px;
+}
+
+.about {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 0.85rem;
+}
+
+.vertical_text {
+    float: right;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 30px;
+    letter-spacing: 6px;
+    color: white;
+}

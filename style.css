@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(82, 123, 255, 1) 0%, rgba(67, 203, 255, 1) 66%);
+    z-index: -1;
+}
+
+.slider3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(82, 123, 255, 1) 0%, rgba(67, 203, 255, 1) 66%);
+    z-index: -1;
+}
+
+section {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 30px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 0.84rem;
+}
+
+#navbarNav a:hover {
+    color: #326fa8;
+}
+
+.picture img {
+    max-width: 50%;
+    border: 13px solid white;
+}
+
+#contact {
+    max-width: 70%;
+    border: none;
+}
+
+#text {
+    font-size: 4rem;
+    color: white;
+    margin-top: 20px;
+}
+
+#text2 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 50px;
+}
+
+#desc {
+    font-size: 1rem;
+    margin-top: -20px;
+    font-weight: 100;
+}
+
+.vertical_text {
+    float: right;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 50px;
+    letter-spacing: 6px;
+    color: rgb(197, 196, 197);
+}
+
+.images img:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.images img {
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+.images a {
+    color: white;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 30px;
+    color: white;
+}
+
+.btn1 {
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn1:hover {
+    background-color: #059fff;
+    color: #fff;
+    transform: translateY(-7px);
+}
